@@ -1,0 +1,16 @@
+{% include 'navbar.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>profile page</title>
+</head>
+<body>
+	<h1>full info about the {{data.username}}</h1>
+	<h2>firstname:{{data.first_name}}</h2>
+	<h2>lastname:{{data.last_name}}</h2>
+	<h2>email:{{data.email}}</h2>
+
+</body>
+</html>
+{% endblock %}
